@@ -43,13 +43,13 @@ All modules are connected through MySQL, enabling decoupled execution and modula
 ## Architecture
 
 SELECTION:
-    SQL-DB-Coint-upd-6.py  <-- fetch raw data, extract signals, update parameters in db. 
-    SQL-DB-Stat-upd-5.py  <-- update trade result, graduite pairs level, sanity check.
+SQL-DB-Coint-upd-6.py  <-- fetch raw data, extract signals, update parameters in db. 
+SQL-DB-Stat-upd-5.py  <-- update trade result, graduite pairs level, sanity check.
 
 EXECUTION:
-    daily_guard_2.py  <-- RM engine.
-    Level_2_CFT_bot_07-12-2025.py  <-- executor, monitor, result writing to DB.
-    TG_messenger_2.py  <-- alret and upd messager.
+daily_guard_2.py  <-- RM engine.
+Level_2_CFT_bot_07-12-2025.py  <-- executor, monitor, result writing to DB.
+TG_messenger_2.py  <-- alret and upd messager.
 
 ---
 
