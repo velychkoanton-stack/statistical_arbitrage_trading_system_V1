@@ -198,7 +198,7 @@ https://miro.com/app/board/uXjVIL2Bep0=/?share_link_id=286279014811
 
 ### Performance Dashboard (Power BI)
 
-[Add Power BI dashboard link here]
+[Power BI dashboard put here here]
 
 ---
 
