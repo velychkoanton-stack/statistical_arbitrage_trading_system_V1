@@ -42,14 +42,30 @@ All modules are connected through MySQL, enabling decoupled execution and modula
 
 ## Architecture
 
-SELECTION:
-SQL-DB-Coint-upd-6.py  fetch raw data, extract signals, update parameters in db
-SQL-DB-Stat-upd-5.py  update trade result, graduite pairs level, sanity check
+The system is structured into two main layers:
 
-EXECUTION:
-daily_guard_2.py  <-- RM engine
-Level_2_CFT_bot_07-12-2025.py  <-- executor, monitor, result writing to DB
-TG_messenger_2.py  <-- alret and upd messager
+### 1. Selection Layer
+Responsible for identifying and maintaining candidate trading pairs.
+
+- `SQL-DB-Coint-upd-6.py`  
+  Fetches market data, performs cointegration analysis, and updates pair parameters in the database.
+
+- `SQL-DB-Stat-upd-5.py`  
+  Calculates trading statistics, evaluates performance, and assigns pair levels (graduation logic).
+
+---
+
+### 2. Execution Layer
+Responsible for risk management, trade execution, and system monitoring.
+
+- `Level_2_CFT_bot_07-12-2025.py`  
+  Core execution engine: opens/closes trades, monitors positions, and writes results to the database.
+
+- `daily_guard_2.py`  
+  Risk management and system health monitoring (daily checks, safeguards).
+
+- `TG_messenger_2.py`  
+  Notification service for alerts, errors, and system updates via Telegram.
 
 ---
 
