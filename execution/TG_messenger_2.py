@@ -5,7 +5,7 @@ import requests
 from typing import Optional
 
 # ---- Config ----
-# Prefer environment variables; falls back to hardcoded defaults if present.
+
 TELEGRAM_BOT_TOKEN = "xxxxx"
 TELEGRAM_CHAT_ID   = "xxxxx"
 
