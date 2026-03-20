@@ -53,6 +53,22 @@ EXECUTION:
 
 ---
 
+## Visualization
+
+### System Flow Diagram (Miro)
+
+https://miro.com/app/board/uXjVIL2Bep0=/?share_link_id=286279014811
+
+---
+
+### Performance Dashboard (Power BI)
+
+https://drive.google.com/file/d/1xx7cCt0ES1gkZ8MYIYSVnwtESrrr6eVz/view?usp=sharing
+
+[Power BI dashboard will be here here]
+
+---
+
 ## Technologies Used
 
 - Python — core implementation  
@@ -188,19 +204,6 @@ Enables:
 
 ---
 
-## Visualization
-
-### System Flow Diagram (Miro)
-
-https://miro.com/app/board/uXjVIL2Bep0=/?share_link_id=286279014811
-
----
-
-### Performance Dashboard (Power BI)
-
-[Power BI dashboard put here here]
-
----
 
 ## Limitations
 
