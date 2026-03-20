@@ -23,7 +23,8 @@ Key metrics (Jun–Nov 2025):
 
 Full report:
 
-[View trading performance report](reports/Trade_result_presenation.pdf)
+https://drive.google.com/file/d/120tinWJZwjI5GAySZXhz6B4y4T025ObQ/view?usp=sharing
+
 
 
 ## Overview
