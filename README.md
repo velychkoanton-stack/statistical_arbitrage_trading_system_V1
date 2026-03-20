@@ -25,7 +25,7 @@ Full report:
 
 https://drive.google.com/file/d/120tinWJZwjI5GAySZXhz6B4y4T025ObQ/view?usp=sharing
 
-
+reports/trading_performance.png
 
 ## Overview
 
