@@ -7,7 +7,7 @@ import logging
 import os
 from logging.handlers import RotatingFileHandler
 from mysql.connector import connect, Error
-from daily_guard_2 import daily_guard_eval_and_act, ensure_day_snapshot
+from execution.daily_guard_2 import daily_guard_eval_and_act, ensure_day_snapshot
 from TG_messenger_2 import init_tg, send_open_signal, send_close_signal
 import requests
 from datetime import time as dtime  # top of file if not present
@@ -83,10 +83,10 @@ BOT_NUM = "Bot_CFT_2"  # Sign in res table
 def connect_to_db():
     try:
         connection = connect(
-            host="localhost",
-            user="root",              # Your MySQL username here
-            password="s0406001_A11",    # Your MySQL password here
-            database="MyDB"           # Use the correct database name
+            host="xxxx",
+            user="xxxx",              # Your MySQL username here
+            password="xxxx",    # Your MySQL password here
+            database="xxxx"           # Use the correct database name
         )
         print("MySQL connection successful!")
         return connection
@@ -1539,8 +1539,8 @@ async def execute_trade_logic():
                 
                 if not ok_close_db:
                 	msg = f"DB CLOSE UPDATE FAILED trade_id={trade_id} uuid={uuid_val} pair={asset1_symbol}/{asset2_symbol}"
-                	logger.error(msg)
-                	await tg_alert(msg)
+                logger.error(msg)
+                await tg_alert(msg)
 
                 update_success = await asyncio.to_thread(update_trade_result, uuid_val, total_closed_pnl)
                 if update_success:

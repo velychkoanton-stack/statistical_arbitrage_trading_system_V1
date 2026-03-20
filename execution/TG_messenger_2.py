@@ -6,8 +6,8 @@ from typing import Optional
 
 # ---- Config ----
 # Prefer environment variables; falls back to hardcoded defaults if present.
-TELEGRAM_BOT_TOKEN = "8401495687:AAEjWWFsFpZ8ZAxULWs1lInKhoPSGGBqGIE"
-TELEGRAM_CHAT_ID   = "8495254471"
+TELEGRAM_BOT_TOKEN = "xxxxx"
+TELEGRAM_CHAT_ID   = "xxxxx"
 
 API_URL = "https://api.telegram.org/bot{token}/sendMessage"
 

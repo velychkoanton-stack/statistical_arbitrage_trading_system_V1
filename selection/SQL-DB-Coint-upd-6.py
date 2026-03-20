@@ -44,10 +44,10 @@ def calculate_half_life(data_set):
 def connect_to_db():
     try:
         connection = connect(
-            host="localhost",
-            user="root",
-            password="s0406001_A11",
-            database="MyDB"
+            host="xxxx",
+            user="xxxx",
+            password="xxxx",
+            database="xxxx"
         )
         return connection
     except Error as e:
