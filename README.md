@@ -63,6 +63,7 @@ https://miro.com/app/board/uXjVIL2Bep0=/?share_link_id=286279014811
 
 ### Performance Dashboard (Power BI)
 
+*temporary pdf version
 https://drive.google.com/file/d/1xx7cCt0ES1gkZ8MYIYSVnwtESrrr6eVz/view?usp=sharing
 
 [Power BI dashboard will be here here]
